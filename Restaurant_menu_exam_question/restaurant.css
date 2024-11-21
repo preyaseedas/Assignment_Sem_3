@@ -1,0 +1,8 @@
+span {
+    font-weight: 600; color: rgb(85, 38, 38) ;
+}
+.inner-table{background-color: rgb(196, 87, 87); height:1450px; width:400px; text-align: center;
+
+}
+.outer-table{display:flex; align-items:center;justify-content: center; background-color: rgb(247, 194, 126); height: 1650px; width:900px; }
+
