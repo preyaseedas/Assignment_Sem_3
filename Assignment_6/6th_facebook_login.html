@@ -32,24 +32,24 @@
     
     <div class="body">
       <div class="login" >
-        <b >
-          Facebook helps you connect and share with the people in your life </b><img
+        <b  style="font-size: 20px;">
+          Facebook helps you connect and share with the people in your life </b><img  id="input_1"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGBprFOeZl30RX4QC2c4F8aKNCkq1koNjxQ&s"
         />
       </div>
-      <div  class="login" style="border: 1.5px solid blue; padding: 20px;">
+      <div  class="login" style=" padding: 20px;">
         <h1>Create an Account</h1>
         <b style="text-align: center;">It's free and always will be.</b>
        <br />
         <form class="login" >
-          <label id="input_1">First Name</label>
-          <input id="input" type="text" />
-          <label id="input_1">Last Name</label>
-          <input id="input" type="name" />
-          <label id="input_1">Your Email</label>
-          <input  id="input"type="email" />
-          <label id="input_1"> Passward</label>
-          <input id="input" type="passward" />
+         
+          <input id="input" type="text"  placeholder="First name"/>
+         
+          <input id="input" type="name"  placeholder="Last name"/>
+         
+          <input  id="input"type="email" placeholder="Email" />
+        
+          <input id="input" type="passward"  placeholder="Password"/>
           <lable id="input_1"> Birthday:</lable>
           <br />
           <span>
@@ -72,14 +72,15 @@
               <option value="2013">2022</option>
             </select>
           </span>
-          <label id="input_1">gender:</label><br />
-          <input type="radio" id="mail" name="gender" />
-          <label for="mail">Male</label>
-          <input type="radio" id="femail" name="gender" />
-          <label for="femail">Female</label>
-        </form> <center> <button id="account_button">create an account</button></center> 
+          <label id="input_1">gender:</label>
+          
+          <label for="male"e>Male <input type="radio" id="male" name="gender" /></label>
+         
+          <label for="female">Female <input type="radio" id="female" name="gender" /></label>
+         <center><button id="account_button">create an account</button></center> 
+        </form> <center>
         <center> <button id="login_button">Log In</button></center> 
-      </div>
+      </form> </div>
     </div>
   </body>
 </html>
